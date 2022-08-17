@@ -1,6 +1,6 @@
 {
-    "name": "dekor/php-array-table",
-    "description": "PHP Library for printing associative arrays as text table (similar to mysql terminal console)",
+    "name": "fgendorf/php-array-table",
+    "description": "PHP Library for printing associative arrays as text table (similar to mysql terminal console) with compatibility with markdown",
     "keywords": [
         "php",
         "library"
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4" : {
-            "dekor\\" : "src"
+            "fgendorf\\" : "src"
         }
     }
 }
