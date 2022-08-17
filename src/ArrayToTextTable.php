@@ -1,6 +1,6 @@
 <?php
 
-namespace dekor;
+namespace fgendorf;
 
 use function array_keys;
 
@@ -54,7 +54,7 @@ class ArrayToTextTable
      *
      * @param $charset
      *
-     * @return \dekor\ArrayToTextTable
+     * @return \fgendorf\ArrayToTextTable
      * @throws \Exception
      */
     public function charset($charset)
