@@ -6,7 +6,7 @@ PHP-class, which allows to transform php associative arrays to cool ASCII tables
 
 ## Installation
 Simply run composer require:
-<pre>composer require dekor/php-array-table</pre>
+<pre>composer require fgendorf/php-array-table</pre>
 
 or add to composer.json:
 <pre>"fgendorf/php-array-table": "1.0"</pre>
