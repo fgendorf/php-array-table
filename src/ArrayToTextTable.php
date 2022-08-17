@@ -117,7 +117,6 @@ class ArrayToTextTable
         /** render section **/
         $this->renderHeader();
         $this->renderBody();
-        $this->lineSeparator();
         /** end render section **/
         
         return str_replace(
@@ -177,7 +176,7 @@ class ArrayToTextTable
         $tmp = '';
         
         foreach ($this->columnsList as $column) {
-            $tmp .= '+' . str_repeat('-', $this->columnsLength[$column] + 2) . '+';
+            $tmp .= '|' . str_repeat('-', $this->columnsLength[$column] + 2) . '|';
         }
         
         $this->result[] = $tmp;
@@ -201,7 +200,6 @@ class ArrayToTextTable
      */
     private function renderHeader()
     {
-        $this->lineSeparator();
         
         if (!$this->renderHeader) {
             return;
